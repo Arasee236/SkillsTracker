@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 @ResponseBody
 
 public class SkillsController {
+
     @GetMapping
     public String skillTracker(){
         return "<html>" +
